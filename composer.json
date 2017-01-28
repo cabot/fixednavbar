@@ -1,0 +1,35 @@
+{
+    "name": "cabot/fixednavbar",
+    "type": "phpbb-extension",
+    "description": "This extension fix the navbar on top when scroll down.",
+    "homepage": "http://cabotweb.fr",
+    "version": "1.0.0",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "Fixed navbar"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Arty",
+            "homepage": "http://www.artodia.com",
+            "role": "Developer"
+        },
+        {
+            "name": "cabot",
+            "homepage": "http://cabotweb.fr",
+            "role": "SushiMaker"
+        }		
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Fixed navbar",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0,<3.3"
+        }
+    }
+}

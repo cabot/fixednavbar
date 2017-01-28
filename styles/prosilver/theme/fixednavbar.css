@@ -1,0 +1,50 @@
+.navbar .inner.static {
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: auto;
+    max-width: none;
+    opacity: .9;
+    transition: opacity .2s;
+}
+
+.not-static .static-inner {
+	padding: 0;	
+}
+
+.static-inner {
+	border-radius: 0;
+}
+
+#wrap .navbar .inner.static > .static-inner {
+	padding: 10px;
+}
+
+.navbar .inner.static > .static-inner {
+	box-sizing: border-box;
+	margin: 0 auto;
+	min-width: 625px;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+	  
+@media (max-width: 1176px) {
+	.navbar .inner.static > .static-inner {
+		margin: 0 12px;
+	}
+}
+		  
+.navbar .inner.static:hover {
+	opacity: 1;
+}
+	  
+@media (max-width: 700px) {
+	.page-width, .navbar .inner.static > .static-inner {
+		min-width: 290px;
+		margin: 0;
+	}	
+}	
